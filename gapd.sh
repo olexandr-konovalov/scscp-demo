@@ -48,7 +48,7 @@
 ##  example, memory usage, start with the workspace etc. The path may be 
 ##  relative (to start from this directory) or absolute. 
 ##  
-GAP="/scratch/alexk/gap4r7p8/bin/gap.sh -b -r -o 4G"
+GAP="~/gap4r7p8/bin/gap.sh -b -r -o 2G"
 ##
 ###########################################################################
 ##

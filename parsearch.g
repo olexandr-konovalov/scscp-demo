@@ -1,7 +1,7 @@
 LoadPackage("scscp");
 
-# Specify the range of ports to use 
-SCSCPservers:=List([26101..26164], i-> ["localhost",i]);
+# Specify the range of ports to use
+SCSCPservers:=List([26101..26102], i-> ["localhost",i]);
 
 # InfoLevel to see the progress of computation
 SetInfoLevel(InfoMasterWorker,5);
@@ -10,9 +10,9 @@ SetInfoLevel(InfoMasterWorker,5);
 #
 # ParSearchForGroupExamples
 #
-# Performs parallel search among small groups of order `order` with 
+# Performs parallel search among small groups of order `order` with
 # numbers in the range [min..max] in chunks of `chunksize` elements
-# 
+#
 ParSearchForGroupExamples := function( order, min, max, chunksize )
 local tasks, r1, r2, t1, t2, result;
 
