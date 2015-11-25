@@ -18,7 +18,7 @@ This directory contains:
 
 ## Setting up
 
-1. Install gapd
+1. Install GAP.
 
 2. Check that the IO package is built: if `LoadPackage("io");` returns `fail`,
 you have to compile it. Otherwise the SCSCP package will not be loaded.
