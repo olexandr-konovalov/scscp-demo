@@ -32,9 +32,11 @@ of cores on your computer. Remove or comment out other calls of `gapd.sh`
 5. Update the line setting up `SCSCPservers` in `parsearch.g` making port numbers
 in the list `[ 26101 .. 26102 ]` matching those in `gapfarm.sh`.
 
-6. Start GAP with `gap avgord.g parsearch.g`
+6. Call `./gapfarm.sh` to start the "farm" of GAP SCSCP servers.
 
-7. You should be able to call `ParSearchForGroupExamples` which takes four
+7. Start GAP with `gap avgord.g parsearch.g`
+
+8. You should be able to call `ParSearchForGroupExamples` which takes four
 arguments: the order to check, the number of the first and the last group
 and the chunksize, for example:
 
