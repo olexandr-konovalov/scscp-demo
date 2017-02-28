@@ -1,4 +1,4 @@
-# Distrubuted calculations with the SCSCP package
+# Distributed calculations with the SCSCP package
 
 This directory contains:
 
