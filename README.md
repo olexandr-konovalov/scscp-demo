@@ -1,5 +1,7 @@
 # Distributed calculations with the SCSCP package
 
+This is a demo of GAP package [SCSCP](https://gap-packages.github.io/scscp/).
+
 This directory contains:
 
 * `avgord.g` - file from the GAP Software Carpentry lesson
